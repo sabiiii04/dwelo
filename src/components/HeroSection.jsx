@@ -16,13 +16,13 @@ const HeroSection = () => {
             <img src={heroHouse} alt="big white cottage" className="w-[50%]" />
 
             <div className="lg:absolute  flex gap-4 py-10 px-4 bg-[#DDC7BB] rounded-[15px] bottom-5 right-30 ">
-                <div className="bg-[#EFF5F1] p-2 rounded-[15px] w-[250px]">
+                <div className="bg-[#EFF5F1] p-2 rounded-[15px] w-[250px] lg:w-[200px] xl:w-[250px]">
                     Location
                 </div>
-                <div className="bg-[#EFF5F1] p-2 rounded-[15px] w-[250px]">
+                <div className="bg-[#EFF5F1] p-2 rounded-[15px] w-[250px] lg:w-[200px] xl:w-[250px]">
                     Type
                 </div>
-                <div className="bg-[#EFF5F1] p-2 rounded-[15px] w-[250px]">
+                <div className="bg-[#EFF5F1] p-2 rounded-[15px] w-[250px] lg:w-[200px] xl:w-[250px]">
                     Price Range
                 </div>
                 <button className="px-6 py-3 text-white bg-[#281812] font-semibold text-[16px] rounded-[8px] hover:cursor-pointer hover:bg-orange-950">
