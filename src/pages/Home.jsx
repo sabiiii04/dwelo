@@ -10,8 +10,12 @@ import Footer from "../components/Footer.jsx";
 const Home = () => {
     return (
         <>
-            <HeroSection/>
-
+            <HeroSection />
+            <AboutUSSection/>
+            <WhyChooseUs/>
+            <ResidencesSection/>
+            <WhatPeopleSay/>
+            <ContactSection/>
         </>
     );
 };
