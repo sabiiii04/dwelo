@@ -14,7 +14,7 @@ const Navbar = () => {
                 <img src={logo} alt="logo" className="h-[30px]" />
             </Link>
 
-            {/* Desktop Navigation */}
+
             <nav className="hidden md:block">
                 <ul className="flex gap-5 lg:gap-10 text-[#281B12] font-bold text-[18px]">
                     <li><Link to="/" className="hover:text-orange-600">Home</Link></li>
@@ -24,7 +24,7 @@ const Navbar = () => {
                 </ul>
             </nav>
 
-            {/* Icons & Sign Up Button */}
+
             <div className="hidden sm:flex gap-6 text-[#2B1B12] text-[26px] justify-center items-center">
                 <CiSearch />
                 <CiUser />
@@ -33,10 +33,10 @@ const Navbar = () => {
                 </button>
             </div>
 
-            {/* Mobile Menu Button */}
+
             <RxHamburgerMenu onClick={() => setIsMenuOpen(true)} className="block md:hidden w-[40px] h-auto cursor-pointer" />
 
-            {/* Mobile Menu */}
+
             {isMenuOpen && (
                 <div className="fixed bg-[#FFF7F2] w-full h-full left-0 top-0 z-[10] p-6 flex flex-col">
                     <div className="flex justify-between items-center">
