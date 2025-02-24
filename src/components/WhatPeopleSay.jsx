@@ -22,21 +22,21 @@ const TestimonialsSection = () => {
     return (
         <section className="flex flex-col items-center justify-center p-10 bg-[#FEF7F2]">
             <h2 className="text-[40px]  font-extrabold mb-6">What People Say About Dwello</h2>
-            <ul className="flex justify-evenly w-full gap-6">
-                {review.map((review, index) => (
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full items-center justify-center">
+            {review.map((review, index) => (
                     <li key={index} className="bg-[#DDC7BB]  rounded-lg shadow-lg w-[350px]">
                         <img src={review.homeImg} alt="Home" className="w-full h-[180px] rounded-t-lg object-cover mb-4" />
                         <div className="flex items-center p-5 gap-3">
                             <img src={review.img} alt={review.name} className="w-10 h-10 rounded-full" />
                             <div>
                                 <h3 className="font-bold text-lg">{review.name}</h3>
-                                <p className="text-sm text-gray-600">{review.location}</p>
+                                <p className="text-sm text-600">{review.location}</p>
                             </div>
                             <span className="flex items-center gap-1 bg-white px-2 py-1 rounded-md ml-auto">
                                 <FaStar className="text-yellow-500" /> {review.rating}
                             </span>
                         </div>
-                        <p className="px-5 pb-5 text-sm mt-3 text-gray-700">{review.review}</p>
+                        <p className="px-5 pb-5 text-sm mt-3 text-700">{review.review}</p>
                     </li>
                 ))}
             </ul>

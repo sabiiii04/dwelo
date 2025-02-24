@@ -12,23 +12,23 @@ const ResidencesSection = () => {
     ];
 
     return (
-        <section className="flex flex-col items-center justify-center p-10">
-            <h2 className="text-[40px] text-[#281812] font-extrabold mb-6">Our Popular Residences</h2>
-            <ul className="flex justify-evenly w-full">
+        <section className="flex flex-col items-center justify-center p-20">
+            <h2 className="text-[40px] font-extrabold mb-6">Our Popular Residences</h2>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
                 {residences.map((residence, index) => (
-                    <li key={index} className="drop-shadow-xl">
-                        <img src={residence.img} alt={residence.location} className="h-[306px] w-[300px] object-cover rounded-t-[15px]" />
-                        <div className="bg-[#DDC7BB] p-5 rounded-b-[15px] flex flex-col gap-4">
-                            <h3 className="flex items-center gap-1"><IoLocationSharp />{residence.location}</h3>
-                            <p className="flex gap-10">
-                                <span className="flex items-center gap-1"><MdBedroomChild />{residence.rooms} Rooms</span>
-                                <span className="flex items-center gap-1"><BiSolidArea />{residence.area} sq ft</span>
+                    <li key={index} className="drop-shadow-xl flex flex-col items-center  rounded-[15px] overflow-hidden shadow-lg w-full max-w-sm">
+                        <img src={residence.img} alt={residence.location} className="h-[306px] w-full object-cover" />
+                        <div className="bg-[#DDC7BB] p-5 flex flex-col gap-4 w-full">
+                            <h3 className="flex items-center gap-1 text-lg font-semibold"><IoLocationSharp />{residence.location}</h3>
+                            <p className="flex flex-col sm:flex-row justify-between ">
+                                <span className="flex items-center gap-1"><MdBedroomChild /> {residence.rooms} Rooms</span>
+                                <span className="flex items-center gap-1"><BiSolidArea /> {residence.area} sq ft</span>
                             </p>
-                            <div className="flex justify-between">
+                            <div className="flex justify-between items-center">
                                 <button className="px-5 py-2 text-white bg-[#2B1812] text-[14px] rounded-[8px] hover:cursor-pointer hover:bg-orange-950">
                                     Sign Up
                                 </button>
-                                <p>${residence.price}</p>
+                                <p className="font-bold text-lg">${residence.price}</p>
                             </div>
                         </div>
                     </li>

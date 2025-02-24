@@ -16,6 +16,7 @@ const Home = () => {
             <ResidencesSection/>
             <WhatPeopleSay/>
             <ContactSection/>
+            <Footer/>
         </>
     );
 };

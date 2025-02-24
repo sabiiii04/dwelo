@@ -5,7 +5,7 @@ const HeroSection = () => {
     return (
         <section className=" flex flex-col lg:flex-row bg-[#FEF7F2] overflow-hidden items-center relative">
             <div className="w-[50%] md:p-10 p-6 text-center lg:text-start gap-5 flex flex-col justify-center items-center lg:items-start">
-                <h1 className="lg:text-[74px] text-[44px] text-[#281812] font-extrabold">Find Your Dream House</h1>
+                <h1 className="lg:text-[74px] text-[44px] font-extrabold">Find Your Dream House</h1>
                 <p className="font-bold text-[18px] text-">
                     Explore our curated selection of exquisite properties meticulously tailored to your unique dream home vision
                 </p>
