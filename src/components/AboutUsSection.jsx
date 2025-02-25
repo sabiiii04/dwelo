@@ -2,7 +2,7 @@ import aboutHouse from '../assets/aboutHouse.png';
 
 const AboutUSSection = () => {
     return (
-        <section className="flex flex-col-reverse lg:flex-row items-center p-8 lg:p-12 xl:p-20 lg:gap-10 gap-14">
+        <section className="flex flex-col-reverse lg:flex-row items-center p-6 lg:p-12 xl:p-20 lg:gap-14 gap-6">
             <img src={aboutHouse} alt="about us house cottage" className="w-full lg:w-1/2 rounded-[15px]" />
             <div className="text-center lg:text-left">
                 <h2 className="text-3xl lg:text-4xl font-extrabold text-[#281812]">We Help You To Find Your Dream Home</h2>

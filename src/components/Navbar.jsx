@@ -41,7 +41,7 @@ const Navbar = () => {
                 <div className="fixed bg-[#FFF7F2] w-full h-full left-0 top-0 z-[10] p-6 flex flex-col">
                     <div className="flex justify-between items-center">
                         <Link to="/">
-                            <img src={logo} alt="logo" className="h-[50px]" />
+                            <img src={logo} alt="logo" className="h-[30px]" />
                         </Link>
                         <AiOutlineClose
                             onClick={() => setIsMenuOpen(false)}

@@ -12,8 +12,8 @@ const ResidencesSection = () => {
     ];
 
     return (
-        <section className="flex flex-col items-center justify-center p-20">
-            <h2 className="text-[40px] font-extrabold mb-6">Our Popular Residences</h2>
+        <section className="flex flex-col items-center justify-center lg:p-20 p-6">
+            <h2 className="text-[40px] font-extrabold mb-6 text-center lg:text-start">Our Popular Residences</h2>
             <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
                 {residences.map((residence, index) => (
                     <li key={index} className="drop-shadow-xl flex flex-col items-center  rounded-[15px] overflow-hidden shadow-lg w-full max-w-sm">

@@ -4,7 +4,7 @@ import { TbRosetteDiscountCheck } from "react-icons/tb";
 
 const ContactSection = () => {
     return (
-        <section className="flex flex-col items-center justify-center p-10 md:p-20">
+        <section className="flex flex-col items-center justify-center p-8 md:p-20">
             <h2 className="text-[32px] font-extrabold text-center">
                 Do You Have Any Questions? <br /> Get Help From Us
             </h2>

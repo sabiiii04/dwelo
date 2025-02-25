@@ -22,7 +22,7 @@ const benefits = [
 
 const WhyChooseUs = () => {
     return (
-        <section className="flex flex-col items-center justify-center p-10 ">
+        <section className="flex flex-col items-center justify-center lg:p-10 p-6 ">
             <h2 className="text-[40px]  font-extrabold">Why Choose Us</h2>
             <p className="text-center  text-lg mt-2 mb-8 font-medium">
                 Elevating Your Home Buying Experience with Expertise, Integrity, <br />
