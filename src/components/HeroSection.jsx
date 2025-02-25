@@ -9,13 +9,13 @@ const HeroSection = () => {
                 <p className="font-bold text-[18px] text-">
                     Explore our curated selection of exquisite properties meticulously tailored to your unique dream home vision
                 </p>
-                <button className="px-8 py-3 mt-12 text-white bg-[#281812] font-semibold text-[16px] rounded-[8px] hover:cursor-pointer hover:bg-orange-950">
+                <button className="px-8 py-3 mt-2 lg:mt-12 text-white bg-[#281812] font-semibold text-[16px] rounded-[8px] hover:cursor-pointer hover:bg-orange-950">
                     Sign up
                 </button>
             </div>
             <img src={heroHouse} alt="big white cottage" className="w-[50%]" />
 
-            <div className="lg:absolute  lg:flex-row flex-col gap-4 py-10 px-4 bg-[#DDC7BB] rounded-[15px] bottom-5 right-30 ">
+            <div className="lg:absolute flex-col lg:flex-row gap-4 py-10 px-4 bg-[#DDC7BB] rounded-[15px] bottom-5 right-30 ">
                 <div className="bg-[#EFF5F1] p-2 rounded-[15px] w-[250px] lg:w-[200px] xl:w-[250px]">
                     Location
                 </div>
