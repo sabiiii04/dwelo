@@ -15,7 +15,7 @@ const HeroSection = () => {
             </div>
             <img src={heroHouse} alt="big white cottage" className="w-[50%]" />
 
-            <div className="lg:absolute flex-col lg:flex-row gap-4 py-10 px-4 bg-[#DDC7BB] rounded-[15px] bottom-5 right-30 ">
+            <div className="lg:absolute flex flex-col lg:flex-row gap-4 py-10 px-4 bg-[#DDC7BB] rounded-[15px] bottom-5 right-30 ">
                 <div className="bg-[#EFF5F1] p-2 rounded-[15px] w-[250px] lg:w-[200px] xl:w-[250px]">
                     Location
                 </div>
